@@ -49,9 +49,9 @@ const About = () => {
             {/* eslint-disable */}
             <p className="text-orange-700">
               Le jus de gingembre est une superbe boisson sollicitée en Afrique.
-              Pour cause, il bénéficie d'&apos une teneur exeptionelle en
-              nutriments et antioxidants. Le gingembre en lui même est une
-              source de cuivre et de manganèse.
+              Pour cause, il bénéficie d'une teneur exeptionelle en nutriments
+              et antioxidants. Le gingembre en lui même est une source de cuivre
+              et de manganèse.
             </p>
             <blockquote className="italic border-l-4 border-orange-500 pl-4 mt-4 text-orange-600">
               “Ginjan, a fiery swirl of wellness in every sip.”
