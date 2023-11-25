@@ -1,155 +1,3 @@
-// import React, { useState } from "react";
-// import {
-//   FaBars,
-//   FaTimes,
-//   FaTiktok,
-//   FaInstagram,
-//   FaFacebookF,
-// } from "react-icons/fa";
-// import Link from "next/link";
-
-// const Navbar = () => {
-//   const [nav, setNav] = useState(false);
-//   const handleClick = () => setNav(!nav);
-
-//   return (
-//     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-yellow-400 text-gray-300 z-20">
-//       <div>
-//         <img
-//           src="/assets/images/nourlight.png"
-//           alt="Logo Image"
-//           style={{ width: "100px" }}
-//         />
-//       </div>
-
-//       {/* menu */}
-//       <ul className="hidden md:flex">
-//         <li>
-//           <Link href="/" smooth={true} duration={500}>
-//             Home
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/#about" smooth={true} duration={500}>
-//             About
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/#locations" smooth={true} duration={500}>
-//             Locations
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/#contact" smooth={true} duration={500}>
-//             Contact
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="order" smooth={true} duration={500}>
-//             Order
-//           </Link>
-//         </li>
-//       </ul>
-
-//       {/* Hamburger */}
-//       <div onClick={handleClick} className="md:hidden z-10">
-//         {!nav ? <FaBars /> : <FaTimes />}
-//       </div>
-
-//       {/* Mobile menu */}
-//       <ul
-//         className={
-//           !nav
-//             ? "hidden"
-//             : "absolute top-0 left-0 w-full h-screen bg-yellow-400 flex flex-col justify-center items-center"
-//         }
-//       >
-//         <li className="py-6 text-4xl">
-//           <Link onClick={handleClick} href="/" smooth={true} duration={500}>
-//             Home
-//           </Link>
-//         </li>
-//         <li className="py-6 text-4xl">
-//           {" "}
-//           <Link
-//             onClick={handleClick}
-//             href="#about"
-//             smooth={true}
-//             duration={500}
-//           >
-//             About
-//           </Link>
-//         </li>
-//         <li className="py-6 text-4xl">
-//           {" "}
-//           <Link
-//             onClick={handleClick}
-//             href="#locations"
-//             smooth={true}
-//             duration={500}
-//           >
-//             Locations
-//           </Link>
-//         </li>
-//         <li className="py-6 text-4xl">
-//           {" "}
-//           <Link
-//             onClick={handleClick}
-//             href="#contact"
-//             smooth={true}
-//             duration={500}
-//           >
-//             Contact
-//           </Link>
-//         </li>
-//         <li className="py-6 text-4xl">
-//           {" "}
-//           <Link
-//             onClick={handleClick}
-//             href="contact"
-//             smooth={true}
-//             duration={500}
-//           >
-//             Order
-//           </Link>
-//         </li>
-//       </ul>
-
-//       {/* Social icons */}
-//       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-//         <ul>
-//           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-//             <a
-//               className="flex justify-between items-center w-full text-gray-300"
-//               href="/"
-//             >
-//               TikTok <FaTiktok size={30} />
-//             </a>
-//           </li>
-//           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-//             <a
-//               className="flex justify-between items-center w-full text-gray-300"
-//               href="/"
-//             >
-//               Instagram <FaInstagram size={30} />
-//             </a>
-//           </li>
-//           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-//             <a
-//               className="flex justify-between items-center w-full text-gray-300"
-//               href="/"
-//             >
-//               Facebook <FaFacebookF size={30} />
-//             </a>
-//           </li>
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Navbar;
-
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
@@ -214,15 +62,13 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/" legacyBehavior>
-          <a>
-            <Image
-              src="/assets/images/nourlight.png"
-              alt="/"
-              width="100"
-              height="100"
-              className="cursor-pointer"
-            />
-          </a>
+          <Image
+            src="/assets/images/nourlight.png"
+            alt="/"
+            width="100"
+            height="100"
+            className="cursor-pointer"
+          />
         </Link>
         <div>
           <ul className="hidden md:flex">
@@ -281,14 +127,12 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/" legacyBehavior>
-                <a>
-                  <Image
-                    src="/assets/images/nourlight.png"
-                    width="87"
-                    height="35"
-                    alt="/"
-                  />
-                </a>
+                <Image
+                  src="/assets/images/nourlight.png"
+                  width="87"
+                  height="35"
+                  alt="/"
+                />
               </Link>
               <div
                 onClick={handleNav}
@@ -336,16 +180,16 @@ const Navbar = () => {
                 Let&#39;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a href="/" target="_blank" rel="noreferrer">
+                <Link href="/" target="_blank" rel="noreferrer">
                   <div className="rounded-full shadow-lg text-[#CD5C5C] shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaTiktok />
                   </div>
-                </a>
-                <a href="/" target="_blank" rel="noreferrer">
+                </Link>
+                <Link href="/" target="_blank" rel="noreferrer">
                   <div className="rounded-full shadow-lg text-[#CD5C5C] shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaInstagram />
                   </div>
-                </a>
+                </Link>
                 <Link href="/">
                   <div
                     onClick={() => setNav(!nav)}
@@ -357,35 +201,38 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          {/* Social icons */}{" "}
+          {/* Social icons */}
           <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-            {" "}
             <ul>
-              {" "}
               <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 tiktok-bg">
-                {" "}
-                <a
+                <button
                   className="flex justify-between items-center w-full text-white"
-                  href="/"
+                  onClick={() => {
+                    /* Handle TikTok click action */
+                  }}
                 >
                   TikTok <FaTiktok size={30} />
-                </a>
+                </button>
               </li>
               <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 gradient-bg">
-                <a
+                <button
                   className="flex justify-between items-center w-full text-white"
-                  href="/"
+                  onClick={() => {
+                    /* Handle Instagram click action */
+                  }}
                 >
                   Instagram <FaInstagram size={30} />
-                </a>
+                </button>
               </li>
               <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1877F2]">
-                <a
+                <button
                   className="flex justify-between items-center w-full text-white"
-                  href="/"
+                  onClick={() => {
+                    /* Handle Facebook click action */
+                  }}
                 >
                   Facebook <FaFacebookF size={30} />
-                </a>
+                </button>
               </li>
             </ul>
           </div>

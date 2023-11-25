@@ -17,6 +17,7 @@ const IngredientCard = ({
       <div className="w-32 h-32 mb-4">
         <Image
           src={imageSrc}
+          alt="card image"
           width={128} // Adjust the size as needed
           height={128} // Adjust the size as needed
           className="rounded-full" // Makes the image round
