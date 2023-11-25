@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { containerVariants } from "../utils/motion";
 import { slideInFromRight } from "../utils/motion";
+import { slideInFromLeft } from "../utils/motion";
 
 const Main = () => {
   return (
