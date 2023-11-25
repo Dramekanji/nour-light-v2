@@ -24,8 +24,8 @@ const Ingredients = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-8"
         >
-          <h1 className="text-4xl font-bold">Ingredients</h1>
-          <p className="mt-4 text-lg">
+          <h1 className="text-4xl font-bold text-[#CD5C5C]">Ingredients</h1>
+          <p className="mt-4 text-lg text-[#CD5C5C]">
             Here are the main ingredients that we use for our drinks.
           </p>
         </motion.div>

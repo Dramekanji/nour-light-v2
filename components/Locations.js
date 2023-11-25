@@ -16,8 +16,10 @@ const Locations = () => {
         transition={{ duration: 0.5 }}
         className="text-center mb-12"
       >
-        <h1 className="text-4xl font-bold text-gray-800 mb-3">Our Locations</h1>
-        <p className="text-lg text-gray-600">
+        <h1 className="text-4xl font-bold text-[#CD5C5C] mb-3">
+          Our Locations
+        </h1>
+        <p className="text-lg text-[#CD5C5C]">
           You can find our drinks at the following locations:
         </p>
       </motion.div>

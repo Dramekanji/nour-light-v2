@@ -25,8 +25,8 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="text-center"
       >
-        <h1 className="text-4xl font-bold">Contact Us</h1>
-        <p className="mt-4 text-lg">Feel free to get in touch</p>
+        <h1 className="text-4xl font-bold text-[#CD5C5C]">Contact Us</h1>
+        <p className="mt-4 text-lg text-[#CD5C5C]">Feel free to get in touch</p>
       </motion.div>
 
       {/* Form and Image */}

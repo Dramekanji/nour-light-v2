@@ -15,7 +15,7 @@ const Main = () => {
               initial="hidden"
               animate="visible"
               variants={containerVariants}
-              className="space-y-4 ml-40"
+              className="space-y-4 lg:ml-40"
             >
               <h2 className="text-5xl font-bold text-[#CD5C5C]">
                 100% NATURAL

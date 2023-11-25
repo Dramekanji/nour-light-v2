@@ -21,8 +21,8 @@ const About = () => {
         transition={{ duration: 0.5 }}
         className="text-center mb-12"
       >
-        <h1 className="text-4xl font-bold">A bit about us</h1>
-        <p className="mt-4 text-lg">Feel free to get in touch</p>
+        <h1 className="text-4xl font-bold text-[#CD5C5C]">About</h1>
+        <p className="mt-4 text-lg text-[#CD5C5C]">Feel free to get in touch</p>
       </motion.div>
 
       <section
@@ -45,15 +45,15 @@ const About = () => {
                 objectFit="cover"
               />
             </div>
-            <h2 className="text-4xl font-bold text-orange-600 my-6">Ginjan</h2>
+            <h2 className="text-4xl font-bold text-[#CD5C5C] my-6">Ginjan</h2>
             {/* eslint-disable */}
-            <p className="text-orange-700">
+            <p className="text-[#CD5C5C]">
               Le jus de gingembre est une superbe boisson sollicitée en Afrique.
               Pour cause, il bénéficie d'une teneur exeptionelle en nutriments
               et antioxidants. Le gingembre en lui même est une source de cuivre
               et de manganèse.
             </p>
-            <blockquote className="italic border-l-4 border-orange-500 pl-4 mt-4 text-orange-600">
+            <blockquote className="italic border-l-4 border-[#CD5C5C] pl-4 mt-4 text-[#CD5C5C]">
               “Ginjan, a fiery swirl of wellness in every sip.”
             </blockquote>
             {/* eslint-enable */}
@@ -62,7 +62,7 @@ const About = () => {
 
         {/* Right side with red background */}
         <motion.div
-          className="bg-red-500 p-4"
+          className="bg-[#CD5C5C] p-4"
           variants={growIn}
           initial="initial"
           animate={isInView ? "animate" : "initial"}
