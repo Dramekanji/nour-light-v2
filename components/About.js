@@ -49,7 +49,7 @@ const About = () => {
             {/* eslint-disable */}
             <p className="text-orange-700">
               Le jus de gingembre est une superbe boisson sollicitée en Afrique.
-              Pour cause, il bénéficie d'&aposune teneur exeptionelle en
+              Pour cause, il bénéficie d'&apos une teneur exeptionelle en
               nutriments et antioxidants. Le gingembre en lui même est une
               source de cuivre et de manganèse.
             </p>
