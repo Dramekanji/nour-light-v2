@@ -46,17 +46,17 @@ const About = () => {
               />
             </div>
             <h2 className="text-4xl font-bold text-orange-600 my-6">Ginjan</h2>
-            /* eslint-disable */
+            {/* eslint-disable */}
             <p className="text-orange-700">
               Le jus de gingembre est une superbe boisson sollicitée en Afrique.
-              Pour cause, il bénéficie d'une teneur exeptionelle en nutriments
-              et antioxidants. Le gingembre en lui même est une source de cuivre
-              et de manganèse.
+              Pour cause, il bénéficie d'&aposune teneur exeptionelle en
+              nutriments et antioxidants. Le gingembre en lui même est une
+              source de cuivre et de manganèse.
             </p>
             <blockquote className="italic border-l-4 border-orange-500 pl-4 mt-4 text-orange-600">
               “Ginjan, a fiery swirl of wellness in every sip.”
             </blockquote>
-            /* eslint-enable */
+            {/* eslint-enable */}
           </div>
         </motion.div>
 
@@ -77,7 +77,7 @@ const About = () => {
               />
             </div>
             <h2 className="text-4xl font-bold text-white my-6">Bissap</h2>
-            /* eslint-disable */
+            {/* eslint-disable */}
             <p className="text-white">
               Le jus de Bissap est riche en antioxidants, protéines, lipides,
               minéraux, fer, et en vitamines C. Favorisant ainsi un système
@@ -86,7 +86,7 @@ const About = () => {
             <blockquote className="italic border-l-4 border-white pl-4 mt-4 text-white">
               “Bissap, a sweet sip to health and happiness.”
             </blockquote>
-            /* eslint-enable */
+            {/* eslint-enable */}
           </div>
         </motion.div>
       </section>
